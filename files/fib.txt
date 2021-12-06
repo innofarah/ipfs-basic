@@ -1,0 +1,8 @@
+Would it work if there were text before the include? 
+
+%IPFS INCLUDE Qmbwne2hKTDM4zJi5ctVuYqqnhnsphQxmwhg2CZUmQCnyr
+%IPFS INCLUDE QmR5WzoKAQhmZU21mfSSzW4mAY3WnGfeNeSQHmqxNYGGga
+This is the file content for 'fib'
+fib1
+fib2
+fib3

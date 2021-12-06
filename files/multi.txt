@@ -1,0 +1,7 @@
+%IPFS INCLUDE QmY4ZYy1TLPoMQfwrPUtguN6jfSZ7hHbnAPgcFg7XFXDsg
+
+This is the file content for 'multi'
+
+multi1
+multi2
+multi3

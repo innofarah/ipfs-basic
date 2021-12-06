@@ -1,0 +1,8 @@
+%IPFS INCLUDE QmY4ZYy1TLPoMQfwrPUtguN6jfSZ7hHbnAPgcFg7XFXDsg
+%IPFS INCLUDE QmXRwk2LSeoT67xxnTc1soab46Zr1BzSCUR8j5M7M8W9yA
+
+This is the file content for 'monotone'
+
+monotone1
+monotone2
+monotone3

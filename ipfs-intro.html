@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>IPFS Intro</title>
+</head>
+<body>
+    <h1>Upload file to IPFS</h1>
+    <form action="" method="" enctype="multipart/form-data" name="uploadform" id="uploadform">
+        <label>Upload File</label>
+        <input type="file" id="fileinput">
+        <br><br>
+        <input type="button" value="Upload" id="upload">
+
+    <h1>Process a File</h1>
+        <label>Enter your file's CID </label>
+        <input type="text" name="cid" id="cid">
+        <br><br>
+        <input type="button" value="Process" id="process">
+
+    </form>
+    <script src="bundle.js"></script>
+    <h2>Your uploaded files CIDs - please save them for later use</h2>
+    <p id="uploadedHashes">
+    </p>
+    <h1>Final result</h1>
+    <p id="finalresult"></p>
+</body>
+</html>
