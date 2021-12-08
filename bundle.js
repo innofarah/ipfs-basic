@@ -8,7 +8,8 @@ const { error } = require('console')
 // connect to the default API address http://localhost:5001
 const client = ipfs.create({
     host: 'localhost',
-    port: 5001,
+    port: 5001, // port for the local go node api
+    //port: 45005,  // port for the brave node api
     protocol: 'http',
     method: "POST",
     headers: {
@@ -21,7 +22,8 @@ const client = ipfs.create({
 //const client = ipfs.create() 
 
 const composeUrl = (fileCID) => {
-    return 'http://127.0.0.1:8080/ipfs/' + fileCID
+    return 'http://127.0.0.1:8080/ipfs/' + fileCID  // port for the local go node gateway
+   // return 'http://127.0.0.1:48084/ipfs/' + fileCID   // port for the brave node gateway
 }
 
 const getFileCIDFromURL = (url) => {
@@ -126,6 +128,7 @@ const processFileStart = (fileCID) => {
     fetch(url).then((response) => {
         response.text().then( (text) => {
             let initialLines = text.split("\n")
+            document.getElementById("initialfile").innerHTML = text.replaceAll("\n", "<br>")
             let i = 0
             startWhile(i, initialLines, globalimportedhashes, toImport)
             console.log("got out")
